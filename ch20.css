@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: orange;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+h1 {
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 24px;
+    color: #333;
+}
